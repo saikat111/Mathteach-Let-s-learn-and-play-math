@@ -490,7 +490,7 @@ public class Constant {
     public static int getThemePosition(Context context) {
         SharedPreferences sharedPreferences = context.getSharedPreferences(MyPref, Context.MODE_PRIVATE);
 
-        return sharedPreferences.getInt(THEMEPOSITION, 0);
+        return sharedPreferences.getInt(THEMEPOSITION, 3);
 
     }
 

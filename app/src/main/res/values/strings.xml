@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Maths learn: Brain Challenge</string>
+    <string name="app_name">Mathteach</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -208,10 +208,10 @@
 
     <string name="slash" translatable="false">/</string>
 
-    <string name="feedback_mail" translatable="false">templatevilla007@gmail.com</string>
+    <string name="feedback_mail" translatable="false">s8856010@gmail.com</string>
 
 
-    <string name="privacy_policy_link" translatable="false">http://www.google.co.uk/</string>
+    <string name="privacy_policy_link" translatable="false">https://mathteachcodingburg.blogspot.com/p/privacy-policy-for-mathteach-lets-learn.html</string>
 
 
     <string name="str_space" translatable="false">\u0020\u0020</string>

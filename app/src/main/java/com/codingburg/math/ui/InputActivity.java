@@ -288,13 +288,6 @@ public class InputActivity extends BaseActivity implements View.OnClickListener,
         tv_precision.setOnClickListener(v -> {
             editText.append("-");
 
-//            if (!TextUtils.isEmpty(editText.getText().toString())) {
-//                if (editText.getText().toString().contains("-")) {
-//                    editText.setText(editText.getText().toString().replaceAll("-", ""));
-//                } else {
-//                    editText.setText(getTranslatedString("-" + editText.getText().toString()));
-//                }
-//            }
         });
 
         tvRemove.setOnClickListener(v -> {
