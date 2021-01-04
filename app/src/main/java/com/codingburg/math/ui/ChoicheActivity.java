@@ -34,4 +34,16 @@ public class ChoicheActivity extends AppCompatActivity {
         Intent homeIntent=new Intent(getApplicationContext(), FunActivity.class);
         startActivity(homeIntent);
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        this.finishAffinity();
+
+    }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+    }
 }

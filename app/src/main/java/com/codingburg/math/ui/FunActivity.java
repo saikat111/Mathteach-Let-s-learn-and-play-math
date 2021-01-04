@@ -35,6 +35,7 @@ public class FunActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), ApiActivity.class);
         intent.putExtra("type", "random");
         startActivity(intent);
+
     }
     public void openDialog() {
         InputBox exampleDialog = new InputBox();
@@ -48,5 +49,13 @@ public class FunActivity extends AppCompatActivity {
     public void openDialog3() {
         DateMonths exampleDialog = new DateMonths();
         exampleDialog.show(getSupportFragmentManager(), "example dialog");
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(getApplicationContext(), ChoicheActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
